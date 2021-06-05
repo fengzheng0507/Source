@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<assembly>
+    <id>RCP_Cores</id>
+    <formats>
+        <format>tar.gz</format>
+<!--        <format>zip</format>-->
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <!-- 配置文件目录，打包至config -->
+            <directory>src/main/resources/</directory>
+            <outputDirectory>config</outputDirectory>
+            <fileMode>0644</fileMode>
+            <includes>
+                <include>application.yml</include>
+                <include>*.xml</include>
+                <include>*.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <!-- 启动文件目录，打包至bin -->
+            <directory>${basedir}/src/bin</directory>
+            <outputDirectory>.</outputDirectory>
+            <fileMode>0755</fileMode>
+            <includes>
+                <include>**.sh</include>
+                <include>**.bat</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <dependencySets>
+        <dependencySet>
+            <!-- 依赖库 -->
+            <outputDirectory>lib</outputDirectory>
+            <scope>runtime</scope>
+            <fileMode>0755</fileMode>
+            <excludes>
+                <exclude>${project.groupId}:${project.artifactId}</exclude>
+            </excludes>
+        </dependencySet>
+        <dependencySet>
+            <outputDirectory>boot</outputDirectory>
+            <fileMode>0755</fileMode>
+            <includes>
+                <include>${project.groupId}:${project.artifactId}</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+</assembly>

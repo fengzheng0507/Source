@@ -1,0 +1,24 @@
+[2021-04-12 10:24:46] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:24:46] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0991.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:26:39] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:28:37] [WARN] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Timed out while waiting for executor 'taskExecutor' to terminate
+[2021-04-12 10:30:39] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:35:42] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:36:51] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:38:27] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 10:40:46] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 13:17:00] [WARN] [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initializeDimensionData': Invocation of init method failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO pd_stage.act_ymt_account_rec (investorAccountId, ymtAccountId, ymtAccountName) VALUES (?, ?, ?); ]; ERROR: dn_6005_6006: duplicate key value violates unique constraint "investoraccountid"
+  详细：Key (investoraccountid)=(D890436998) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: dn_6005_6006: duplicate key value violates unique constraint "investoraccountid"
+  详细：Key (investoraccountid)=(D890436998) already exists.
+[2021-04-12 13:18:34] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 13:48:55] [WARN] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Timed out while waiting for executor 'taskExecutor' to terminate
+[2021-04-12 13:48:55] [WARN] [io.lettuce.core.RedisChannelHandler] Connection is already closed
+[2021-04-12 14:13:29] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:23:22] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0020.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:23:23] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:23:23] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0991.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:23:35] [WARN] [com.sse.rcp.sort.SortOperator] 收到EOS信号，线程SortOpThread-rcps-sse.mtp.cnmf.0991.sorted退出！本次消费到seq:[3590991000000053]
+[2021-04-12 20:26:48] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0004.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:26:48] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0991.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:26:48] [WARN] [com.sse.rcp.sort.SortOperator] [SortOpThread-rcps-sse.mtp.cnmf.0020.sorted]线程初始化时未从sorted拉取到数据！
+[2021-04-12 20:26:54] [WARN] [com.sse.rcp.sort.SortOperator] 收到EOS信号，线程SortOpThread-rcps-sse.mtp.cnmf.0991.sorted退出！本次消费到seq:[3590991000000053]

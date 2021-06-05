@@ -1,0 +1,16 @@
+[2021-04-19 10:56:59] [INFO] [mockData.MockApplication] Starting MockApplication on 7-STG-DTP-06 with PID 6352 (D:\ll\rcp-preprocess\RCP_Cores\target\test-classes started by yang.chun in D:\ll\rcp-preprocess)
+[2021-04-19 10:56:59] [INFO] [mockData.MockApplication] No active profile set, falling back to default profiles: default
+[2021-04-19 10:57:01] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-04-19 10:57:01] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-04-19 10:57:01] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 64ms. Found 0 Redis repository interfaces.
+[2021-04-19 10:57:02] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2021-04-19 11:00:11] [INFO] [mockData.MockApplication] Starting MockApplication on 7-STG-DTP-06 with PID 6100 (D:\ll\rcp-preprocess\RCP_Cores\target\test-classes started by yang.chun in D:\ll\rcp-preprocess)
+[2021-04-19 11:00:11] [INFO] [mockData.MockApplication] No active profile set, falling back to default profiles: default
+[2021-04-19 11:00:12] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-04-19 11:00:12] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2021-04-19 11:00:12] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+[2021-04-19 11:00:13] [INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
